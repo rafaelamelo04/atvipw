@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <style>
+/* Estilo para o botão com cor sólida */
+.botão-sólida {
+background-color: blueviolet;   /*cor de fundo */
+color:aliceblue;               /*cor texto */
+padding: 10px 20px;            /*prenchimento interno*/
+border: none;                 /*sem borda */
+cursor: pointer;             /*cursor ao passar o mouse */
+}
+.botao-solida:focus,
+.botao-solida:houver {
+    background-color: grey;  /* cor de fundo quando focado/houver */
+}
+/* Estilo para o botão com gradiente de cores */
+.botao-gradiente {
+background-color: linear-gradient (to bottom, #7647,#445656, #654786); /* Gradiente de cores */
+color: aliceblue;                                                          /*cor do texto */
+padding: 10px 20px;                                                          /*preenchimento interno */
+border: none;                                                                /*sem borda*/
+cursor: pointer;                                                              /*cursor ao passar o mouse */
+}
+.botao-solida:focus,
+.botao-solida:hover {
+    background: linear-gradient(to bottom, #8754, #6743); /*grandiente de cores quando focado/hover */
+}
+    </style>
+    </head>
+    <body>
+<button class="botao-solida">botão aprovado</button>
+<button class="botao-gradiente"> botão reprovado</button>
+
+    </body>
+    </html>
